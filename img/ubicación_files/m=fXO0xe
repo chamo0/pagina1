@@ -1,0 +1,14 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.n1e=_.K("w3Ukrf");_.o1e=_.K("gXfOqb");_.p1e=_.K("n1Iq3");_.q1e=_.K("x6BCfb");_.r1e=_.K("BVfjhf");
+}catch(e){_._DumpException(e)}
+try{
+_.m("fXO0xe");
+var t1e=function(a){_.z.call(this,a.Ka);this.wa=!1;this.ka=null;this.rootElement=this.getRoot().el();this.Aa=_.El(this.rootElement,"g-menu-item");this.Da=this.getData("hbc").string("");this.Ia=this.getData("htc").string("");this.La=this.getData("bsdm").bool(!1);this.Na=this.getData("tsdm").bool(!1);this.Ba=this.getData("btf").bool(!1);this.oa=this.La||this.Ba||this.Na;this.Oa=this.getData("spt").bool();this.Rf=a.service.location;this.Rc=a.service.navigation};_.D(t1e,_.z);
+t1e.Ea=function(){return{service:{location:_.Dy,navigation:_.Ly}}};_.l=t1e.prototype;_.l.Mld=function(){var a=void 0===a?null:a;var b=document.getElementById("YUIDDb");this.Oa&&b?(_.Bv(this.rootElement,{interactionContext:1}),b=new _.ko(b.getAttribute("data-spl")),null!=a&&_.so(b,"cs",a),this.Rc.oa(b.toString())):(_.Bv(this.rootElement),a=_.uo(new _.ko(this.Rf.location.href),"hl")||"",a=_.qo(_.so(_.so(new _.ko("/preferences"),"prev",this.Rf.location.href),"hl",a),"appearance"),this.Rc.oa(a.toString()))};
+_.l.Nld=function(){var a=this;this.oa&&(_.x.setStyle(this.Aa,{background:this.Da,color:this.Ia}),this.trigger(_.Ynd),this.wa=!0,_.Jd(document,"click",function(){a.xJc()},{once:!0,passive:!0}))};_.l.xJc=function(){var a=this;this.oa&&(this.ka=_.Jd(document,"click",function(){a.EJc()},{once:!0,passive:!0}))};_.l.EJc=function(){this.oa&&(_.x.setStyle(this.Aa,{background:"",color:""}),this.ka&&(_.tk(this.ka),this.ka=null))};_.l.Vze=function(){this.wa&&(this.wa=!1,this.trigger(_.r1e))};
+_.L(t1e.prototype,"aelxJb",function(){return this.Vze});_.L(t1e.prototype,"MB7MSb",function(){return this.EJc});_.L(t1e.prototype,"fbAr9c",function(){return this.xJc});_.L(t1e.prototype,"ggFCce",function(){return this.Nld});_.L(t1e.prototype,"ok5gFc",function(){return this.Mld});_.$r(_.M5a,t1e);
+_.n();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.

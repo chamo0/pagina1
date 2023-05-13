@@ -1,0 +1,11 @@
+#encabezado{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+}
+#contenido{
+    background-color: yellow;
+}
+#piedepagína{
+    background-color:green;
+}

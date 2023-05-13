@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" src="css/style.css" type="text/css"> -->
+
+    <style>
+       div{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+        #encabezado{
+            background-color: rgb(119, 43, 226);
+            width: 100%;
+            height: 215px;
+            display: flex;
+            
+        }
+        #contenido{
+          
+            width: 100%;
+            height: auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        #piedepagina{
+            background-color: rgb(119, 43, 226);
+            width: 100%;
+            height: 200px;
+        }
+        div{
+           /* border: 1px solid black;*/
+        }
+       #fila1-cajita1{
+        width: 40%;
+        height: 150px;
+       }
+       #fila1-cajita2{
+        width: 40%;
+        height: 150px;
+       }
+       #fila1{
+        display: flex;
+       }
+
+       #fila2-cajita1{
+        width: 40%;
+        height: 150px;
+
+       }
+       #fila2-cajita2{
+        width: 40%;
+        height: 150px;
+       }
+       #fila2{
+        display:flex ;
+       }
+
+       #menu{
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: 74px;
+       }
+       #listamenu{
+        font-size: 10px;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        list-style-type: none;
+   
+        justify-content: space-between;
+       }
+       #listamenu li{
+       
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       font-size: 20px;
+        color:white;
+        border-radius: 10px;
+        margin-left: 40px;
+        
+       }
+
+       #banner{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+           background-color:#cae9fb ; 
+        }
+
+
+       #banner img{
+        width: 500px;
+       }
+
+      #imagenarriba{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top:40px ;
+        margin-bottom:40px ;
+      }
+      #imagenarriba img{
+        width: 90%;
+        height: 300px;
+        border-radius: 40px;
+    }       
+      #titulo1{
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+
+      }
+      #quienessomos{
+        padding-left: 100px;
+        padding-right: 100px;
+        
+      }
+      #titulo2{
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+      }
+      #porqueelegirnos{ 
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      #tituloMision{
+        
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+
+      }
+      #textomision{
+        padding-left: 100px;
+        padding-right: 100px;  
+
+      }
+      #fotos{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+      }
+      #foto1{
+        width: 45%;
+      }
+      #foto2{
+        width: 45%;
+      }
+      #foto1 img{
+        width: 100%;
+        height: 382px;
+        border-radius: 40px;
+        
+       
+      }
+      #foto2 img{
+        width: 100%;
+        border-radius:40px;
+        
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #botonesdepago{
+        width: 40%;
+        min-height:100px;
+        background-color: rgb(119, 43, 226);
+        border-radius: 150px;
+        padding: 20px;
+        margin: 20px;
+      }
+      #pse{
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #pse img{
+        width: 200px;
+      }
+      #efectivo img{
+        width: 200px;
+      }
+      #efectivo{
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #logo img{
+        width: 200px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      #ubicacion{
+        text-align: center;
+        color: white;
+      }
+      #redes_sociales{
+        text-align: center;
+      }
+      #redes_sociales img{
+        width: 50px;
+      }
+      a{
+        color:white;
+        text-decoration: none;
+      }
+      #registro{
+        width: 80%;
+        min-height: 400px;
+        background-color: rgb(119, 43, 226);
+        border-radius: 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      #registro button{
+        padding: 10px;
+        border-radius: 5px;
+      }
+      #registro h1{
+        color: white;
+      }
+      #formulario_usuario label{
+        color: white;
+      }
+      #formulario_usuario input{
+        color: white;
+        width: 300px;
+        line-height: 30px;
+        border-radius: 10px;
+        border:none
+      }
+    </style>
+</head>
+
+<body>
+    <div id="encabezado">
+        <div id="logo">
+          <a href="index.html">
+            <img src="img/banner.jpg" />
+          </a>
+        </div>
+        <div id="menu">
+            
+          <ul id="listamenu">
+
+
+            <li>
+              <a href="inicio.html">
+              INICIO
+              </a>
+            </li>
+
+            <li>
+                <a href="registro.html">
+                REGISTRO
+              </a>
+            </li>
+
+            <li>
+              <a href="galeria.html">
+                GALERIA 
+              </a>
+            </li>
+
+            <li>
+              <a href="seguimiento.html">
+                SEGUMIENTO 
+              </a>
+            </li>
+        </ul>
+
+        </div>
+    </div>
+
+
+    <div id="contenido"> 
+
+
+      <div id="registro"> 
+          <h1>REGISTRO EMPRESA</h1><br>
+          <form id="formulario_usuario">
+              <label>NOMBRE COMPLETO<br/>
+                <input type="text" >
+              </label>
+              <br/> <br/>
+              <label>USUARIO<br/>
+                <input type="text" >
+              </label>
+              <br/> <br/>
+              <label>CONTRASEÑA<br/>
+                <input type="text" >
+              </label>
+              <br/> <br/>
+              <label>CORREO<br/>
+                <input type="text" >
+              </label>
+              <br/> <br/>
+              <label>TELÉFONO<br/>
+                <input type="text" >
+              </label>
+
+              <br/><br/>
+              <button type="submit">ENVIAR</button>
+          </form>
+      </div>
+
+    </div>
+
+
+    <div id="piedepagina">
+        <div id="ubicacion">
+                Ubicación<br/>
+                Calle 12BSur No 52A - 101 B/Guayabal la Colina  <br/>
+                Whatsapp 3015206276<br/>
+        </div>
+        <div id="redes_sociales">
+
+                <a href="https://web.facebook.com/people/Chiki-Aventuras-Jard%C3%ADn/100065095686913/?_rdc=1&_rdr" target="_blank">
+                    <img src="img/iconoFacebook.png">
+                </a>
+               
+                <a href="https://www.whatsapp.com/?lang=es3015206276" target="_blank">
+                    <img src="img/iconoWhatsapp.png">
+                </a>
+        </div>
+
+    </div>
+</body>
+</html>

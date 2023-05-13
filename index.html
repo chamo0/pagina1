@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" src="css/style.css" type="text/css"> -->
+
+    <style>
+       div{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+        #encabezado{
+            background-color: rgb(119, 43, 226);
+            width: 100%;
+            height: 215px;
+           
+            display: flex;
+            
+        }
+        #contenido{
+        
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        #piedepagina{
+            background-color: rgb(119, 43, 226);
+            width: 100%;
+            height: 200px;
+        }
+        div{
+           /* border: 1px solid black;*/
+        }
+       #fila1-cajita1{
+        width: 40%;
+        height: 150px;
+       }
+       #fila1-cajita2{
+        width: 40%;
+        height: 150px;
+       }
+       #fila1{
+        display: flex;
+       }
+
+       #fila2-cajita1{
+        width: 40%;
+        height: 150px;
+
+       }
+       #fila2-cajita2{
+        width: 40%;
+        height: 150px;
+       }
+       #fila2{
+        display:flex ;
+       }
+
+       #menu{
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: 74px;
+       }
+       #listamenu{
+        font-size: 10px;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        list-style-type: none;
+   
+        justify-content: space-between;
+       }
+       #listamenu li{
+       
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       font-size: 20px;
+        color:white;
+        border-radius: 10px;
+        margin-left: 40px;
+        
+       }
+
+       #banner{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+           background-color:#cae9fb ; 
+        }
+
+
+       #banner img{
+        width: 500px;
+       }
+
+      #imagenarriba{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top:40px ;
+        margin-bottom:40px ;
+      }
+      #imagenarriba img{
+        width: 90%;
+        height: 300px;
+        border-radius: 40px;
+    }       
+      #titulo1{
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+
+      }
+      #quienessomos{
+        padding-left: 100px;
+        padding-right: 100px;
+        
+      }
+      #titulo2{
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+      }
+      #porqueelegirnos{ 
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      #tituloMision{
+        
+        width: 100%;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+
+      }
+      #textomision{
+        padding-left: 100px;
+        padding-right: 100px;  
+
+      }
+      #fotos{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+      }
+      #foto1{
+        width: 45%;
+      }
+      #foto2{
+        width: 45%;
+      }
+      #foto1 img{
+        width: 100%;
+        height: 382px;
+        border-radius: 40px;
+        
+       
+      }
+      #foto2 img{
+        width: 100%;
+        border-radius:40px;
+        
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #botonesdepago{
+        width: 40%;
+        min-height:100px;
+        background-color: rgb(119, 43, 226);
+        border-radius: 150px;
+        padding: 20px;
+        margin: 20px;
+      }
+      #pse{
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #pse img{
+        width: 200px;
+      }
+      #efectivo img{
+        width: 200px;
+      }
+      #efectivo{
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #logo img{
+        width: 200px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      #ubicacion{
+        text-align: center;
+        color: white;
+      }
+      #redes_sociales{
+        text-align: center;
+      }
+      #redes_sociales img{
+        width: 50px;
+      }
+      a{
+        color:white;
+        text-decoration: none;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="encabezado">
+        <div id="logo">
+            <img src="img/banner.jpg" />
+        </div>
+        <div id="menu">
+            
+            <ul id="listamenu">
+
+
+                <li>
+                  <a href="inicio.html">
+                  INICIO
+                  </a>
+                </li>
+
+                <li>
+                    <a href="registro.html">
+                    REGISTRO
+                  </a>
+                </li>
+
+                <li>
+                  <a href="galeria.html">
+                    GALERIA 
+                  </a>
+                </li>
+
+                <li>
+                  <a href="seguimiento.html">
+                    SEGUMIENTO 
+                  </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+<!--
+    <div id="banner">
+        <img src="img/banner.jpg"/>
+    </div>
+ -->
+    <div id="imagenarriba">
+            <img src="img/ime2.jpg" alt="">             
+    </div>
+
+    <div id="fotos">
+
+        <div id="foto1">
+            <img src="img/foto1.jpg" alt="" usemap="#image_map">
+
+           
+          <map name="image_map">
+            <area alt="Mafalda" title="Mafalda" href="video.html" coords="1,47 60,79 80,127 67,211 2,211 2,209 2,209 3,209 3,209 3,209 " shape="polygon">
+          </map>
+
+        </div>
+        <div id="foto2">
+            <img src="img/foto2.jpg" alt="">
+        </div>
+
+    </div>
+    <div id="botonesdepago">
+        <div id="pse">
+            MÉTODO DE PAGO
+            <a href="https://www.pse.com.co/persona/" target="_blank" />
+                <img src="img/pse.png" alt="">
+            </a>
+        </div>
+        <div id="efectivo">
+            EFECTIVO
+            <a href="https://www.openpay.co/link-cobro/" target="_blank" />
+                <img src="img/efectivo.png" alt="">
+            </a>
+
+        </div>
+
+
+    </div>
+
+    <div id="contenido"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5047619207785!2d-75.5936172856939!3d6.196936628593814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46837dfb99217d%3A0xa39be6565b5a7f56!2sJARDIN%20INFANTIL%20CHIKY%20AVENTURAS!5e0!3m2!1ses-419!2sco!4v1680879012781!5m2!1ses-419!2sco"
+       width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+       
+    </div>
+
+
+    <div id="piedepagina">
+        <div id="ubicacion">
+                Ubicación<br/>
+                Calle 12BSur No 52A - 101 B/Guayabal la Colina  <br/>
+                Whatsapp 3015206276<br/>
+        </div>
+        <div id="redes_sociales">
+
+                <a href="https://web.facebook.com/people/Chiki-Aventuras-Jard%C3%ADn/100065095686913/?_rdc=1&_rdr" target="_blank">
+                    <img src="img/iconoFacebook.png">
+                </a>
+               
+                <a href="https://www.whatsapp.com/?lang=es3015206276" target="_blank">
+                    <img src="img/iconoWhatsapp.png">
+                </a>
+        </div>
+
+    </div>
+</body>
+</html>
